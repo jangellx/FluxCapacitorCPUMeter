@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FluxCapacitorCPUMeter", "FluxCapacitorCPUMeter\FluxCapacitorCPUMeter.vcproj", "{C4C1F960-D6B7-4E50-8240-74E2B9A19596}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921} = {7B6801A6-CCA7-488E-B06A-D7263F8FF921}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Serial", "..\Third Party Libraries\Serial\Serial\Serial.vcproj", "{7B6801A6-CCA7-488E-B06A-D7263F8FF921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Unicode|Win32 = Debug Unicode|Win32
+		Debug|Win32 = Debug|Win32
+		Release Unicode|Win32 = Release Unicode|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Debug Unicode|Win32.ActiveCfg = Debug|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Debug Unicode|Win32.Build.0 = Debug|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Debug|Win32.Build.0 = Debug|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Release Unicode|Win32.ActiveCfg = Release|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Release Unicode|Win32.Build.0 = Release|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Release|Win32.ActiveCfg = Release|Win32
+		{C4C1F960-D6B7-4E50-8240-74E2B9A19596}.Release|Win32.Build.0 = Release|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Debug Unicode|Win32.ActiveCfg = Debug Unicode|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Debug Unicode|Win32.Build.0 = Debug Unicode|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Debug|Win32.Build.0 = Debug|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Release Unicode|Win32.ActiveCfg = Release Unicode|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Release Unicode|Win32.Build.0 = Release Unicode|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Release|Win32.ActiveCfg = Release|Win32
+		{7B6801A6-CCA7-488E-B06A-D7263F8FF921}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
