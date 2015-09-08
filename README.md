@@ -1,4 +1,4 @@
-# FluxCapacitorCPUMeter
+# Flux Capacitor CPU Meter and Low Memory Indicator
 Windows and Arduino code to turn a flux capacitor replica into a CPU activity and low memory indicator.  Full details of the build can be found (on my website)[http://www.tmproductions.com/projects-blog/2014/12/20/flux-capacitor-cpu-meter].
 
 This is a project to convert a replica Back to the Future flux capacitor into an Arduino-driven CPU activity meter and low memory monitor through an assocaited Windows system tray application
