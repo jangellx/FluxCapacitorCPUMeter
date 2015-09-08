@@ -10,3 +10,9 @@ The Arduino code simply reads data from teh serial port, and changes the speed o
 The Eagle project describes the simple construction of the electronics.  It is my first eagle project, but there's not too much to it.
 
 This was rather specifically made for my own purposes, but if anyone else finds it useful, go for it.
+
+## Windows Source: FluxCapacitorCPUMeter vs. FluxCapacitorCPUMeter-WFA
+FluxCapacitorCPUMeter is an early version of this project, and can safely be ignored.  FluxCapacitorCPUMeter-WFA is the one I run daily, and is really the one you want to look at.
+
+## Arduino Source
+FluxCapacitorCPUMeter is the code that runs on my Ardiuno.  I also incldued a modified version of Blink that I was playing around with while developing this.
