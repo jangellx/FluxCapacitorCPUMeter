@@ -375,7 +375,7 @@ namespace FluxCapacitorCPUMeterWFA {
 	// Update COM Port names
 	private: void UpdateCOMPortNames() {
 		int				i;
-		array<System::String^>^		serialPorts =  SerialPort::GetPortNames(); 
+		cli::array<System::String^>^		serialPorts =  SerialPort::GetPortNames(); 
 
 		COMPortField->Items->Clear();
 		serialPorts->Sort( serialPorts );
@@ -407,8 +407,8 @@ namespace FluxCapacitorCPUMeterWFA {
 
 	// Quit Button:  Quit the app when clicked
 	private: System::Void QuitButton_Click(System::Object^  sender, System::EventArgs^  e) {
-			if( this->ConfirmQuit() )
-				Application::Exit();
+		if( this->ConfirmQuit() )
+			Application::Exit();
 	}
 
 	// Use Memory Available Toggled

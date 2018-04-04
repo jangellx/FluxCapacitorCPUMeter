@@ -114,7 +114,7 @@ namespace FluxCapacitorCPUMeterWFA {
 
 		// Destructor
 		~FCLSerial() {
-			;
+			this->!FCLSerial();
 		}
 
 	private:
